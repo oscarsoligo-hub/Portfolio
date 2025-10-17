@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Portfolio — Oscar Soligó</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@400,500,600&f[]=clash-display@400,600,700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">Oscar Soligó Juval</div>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="screen">
+  <section id="hero" class="section hero">
+    <div class="hero-left">
+      <div class="hero-text-wrapper">
+        <h1 class="fade-text">Hi, I'm <span>Oscar.</span></h1>
+        <p class="fade-text">Welcome to my personal portfolio.</p>
+        <p class="fade-text small-text">
+          Graduated in <strong>Multimedia</strong>, with experience in video editing, graphic design, 3D, and knowledge in UX/UI and web development.<br>
+          Here you can explore a selection of my most prominent projects.
+        </p>
+      </div>
+    </div>
+    <div class="hero-logo-large"><img src="images/logo.png" alt="Logo"></div>
+    <div class="hero-overlay-title">
+      <span class="hero-name">OSCAR SOLIGÓ</span>
+      <span class="hero-subtitle">Digital Portfolio</span>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section portfolio">
+    <h2 class="fade-text">Portfolio</h2>
+    <p class="fade-text">Explore some of my works:</p>
+    <div class="carousel-wrapper fade-text">
+      <button class="carousel-btn prev">‹</button>
+      <div class="carousel-mask"><div class="carousel-track"></div></div>
+      <button class="carousel-btn next">›</button>
+    </div>
+    <div class="portfolio-links fade-text">
+      <p>Or view the full collection:</p>
+      <div class="portfolio-items">
+        <a href="https://drive.google.com/file/d/1jiKkA3bx6wzt6ALUXhSAaKLvpbPZOuOj/view?usp=sharing" target="_blank" class="portfolio-item">Graphic Design</a>
+        <a href="https://drive.google.com/file/d/1Nw43kpP-hEXpgUT6LhtbQVIeWN2VCGhp/view?usp=sharing" target="_blank" class="portfolio-item">Demo Reel</a>
+        <a href="https://www.artstation.com/oscarsoligo" target="_blank" class="portfolio-item">ArtStation</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contacto">
+    <h2 class="fade-text">Contact</h2>
+    <p class="fade-text">Feel free to send me a message through this form:</p>
+
+   <form id="contactForm" class="contact-form fade-text" 
+        action="https://formsubmit.co/9908433d94651f290125b58ab449abcf" 
+        method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="your@email.com" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+    </div>
+
+    <button type="submit" class="btn-send">Send Message</button>
+  </form>
+
+    <div class="contact-icons fade-text">
+      <a href="https://www.linkedin.com/in/oscarsoligo/" target="_blank" class="contact-icon">
+        <img src="images/linkedin.svg" alt="LinkedIn">
+        <span>LinkedIn</span>
+      </a>
+      <a href="mailto:oscarsoligo56@gmail.com" class="contact-icon">
+        <img src="images/email.svg" alt="Email">
+        <span>Email</span>
+      </a>
+      <a href="images/CV_OscarSoligo_2025_ENG.pdf" class="contact-icon" target="_blank" download>
+        <img src="images/pdf.svg" alt="Resume">
+        <span>Resume</span>
+      </a>
+    </div>
+  </section>
+
+</div>
+
+<div class="scroll-indicator">
+  <span>SCROLL</span>
+  <div class="arrow">&#x2193;</div>
+</div>
+
+<div class="scroll-bar">
+  <div class="checkpoint active"></div>
+  <div class="checkpoint"></div>
+  <div class="checkpoint"></div>
+</div>
+
+<footer class="footer">
+  <p>© 2025 <strong>Oscar Soligó Juval</strong>. All rights reserved.</p>
+</footer>
+
+<script src="js.js"></script>
+</body>
+</html>
