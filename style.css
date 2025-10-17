@@ -1,4 +1,15 @@
 /* ==============================
+   FUENTES
+============================== */
+@font-face{font-family:'Clash Grotesk';src:url('fonts/ClashGrotesk-Regular.woff2') format('woff2');font-weight:400;font-style:normal;}
+@font-face{font-family:'Clash Grotesk';src:url('fonts/ClashGrotesk-Medium.woff2') format('woff2');font-weight:500;font-style:normal;}
+@font-face{font-family:'Clash Grotesk';src:url('fonts/ClashGrotesk-Semibold.woff2') format('woff2');font-weight:600;font-style:normal;}
+@font-face{font-family:'Clash Display';src:url('fonts/ClashDisplay-Regular.woff2') format('woff2');font-weight:400;font-style:normal;}
+@font-face{font-family:'Clash Display';src:url('fonts/ClashDisplay-Semibold.woff2') format('woff2');font-weight:600;font-style:normal;}
+@font-face{font-family:'Clash Display';src:url('fonts/ClashDisplay-Bold.woff2') format('woff2');font-weight:700;font-style:normal;}
+@font-face{font-family:'Dancing Script';src:url('fonts/DancingScript-Bold.woff2') format('woff2');font-weight:700;font-style:normal;}
+
+/* ==============================
    COLORES Y GENERAL
 ============================== */
 html,body{margin:0;padding:0;font-family:'Clash Grotesk',Arial,sans-serif;background:#1C1817;color:#E1DED9;overflow-x:hidden;overflow-y:hidden;}
